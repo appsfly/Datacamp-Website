@@ -5,32 +5,27 @@ html {
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #111537;
 }
 
 .header-wrapper {
-    width: 99.9vw;
+    width: 100%;
     height: 8vh;
-
-    background-color: #10213a;
-    border: 1px solid #000000;
-
+    background-color: #111537;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     box-sizing: border-box;
     padding-left: 16px;
     padding-right: 16px;
 }
 
 .left-hw-container {
-    width: 65vw;
+    width: 65%;
     height: 7.5vh;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     box-sizing: border-box;
     padding-left: 8px;
     padding-right: 8px;
@@ -39,7 +34,6 @@ body {
 .logo {
     width: 13vw;
     height: 6vh;
-
     border: 1px solid #ffffff;
 }
 
@@ -48,11 +42,9 @@ body {
 .pricing {
     width: 7.5vw;
     height: 5vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 1.07rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -62,46 +54,30 @@ body {
 .for-universities {
     width: 10vw;
     height: 5vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 1.07rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
 .right-hw-container {
-    width: 22vw;
+    width: 22%;
     height: 7.5vh;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     box-sizing: border-box;
     padding-left: 8px;
     padding-right: 8px;
 }
 
-.search-btn {
-    width: 2.8vw;
-    height: 5.5vh;
-
-    border: 1px solid #ffffff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+.search-btn, 
 .language-btn {
     width: 2.8vw;
     height: 5.5vh;
-
     border: 1px solid #ffffff;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,14 +86,11 @@ body {
 .sign-in {
     width: 5vw;
     height: 5vh;
-
     border: 1px solid #ffffff;
     border-radius: 8px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -126,15 +99,262 @@ body {
 .get-started {
     width: 7vw;
     height: 5vh;
-
     background-color: #ffffff;
     border-radius: 8px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #1f2b44;
+}
+
+/* main-content */
+.main-content {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111537;
+}
+
+/* main content left side */
+.right-side {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.LearnAI {
+    font-size: 6rem;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+.Unlock {
+    font-size: 185%;
+    font-weight: 100;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 33.5vw;
+    height: 20vh;
+    justify-content: space-around;
+}
+
+.firstbutton {
+    height: 6vh;
+    width: 29vw;
+    background-color: #4fff3f;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.5rem;
+}
+
+.Secondbutton {
+    height: 6vh;
+    width: 29vw;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 1.5rem;
+}
+
+/* right side */
+.create {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 43.75rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.title {
+    width: 80%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-top: 3.2rem;
+    color: #10213a;
+}
+
+.social {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.2rem;
+}
+
+.type-social {
+    width: 25%;
+    height: 3.5rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #10213a;
+}
+
+.decide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.875rem;
+    margin-top: 2rem;
+    color: #10213a;
+}
+
+.user {
+    width: 90%;
+    height: 30rem;
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text1 {
+    font-weight: 550;
+    font-size: 1.8rem;
+    color: #10213a;
+}
+
+.address {
+    height: 3.4rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.psw {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text2 {
+    font-weight: 550;
+    font-size: 1.8rem;
+    color: #10213a;
+}
+
+.password {
+    height: 3.4rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.start {
+    background-color: #4fff3f;
+    border: 1px solid #4fff3f;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    height: 3.6rem;
+    margin-top: 3.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #10213a;
+}
+
+/* Responsive Design */
+
+/* For tablets and smaller devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .left-hw-container, .right-hw-container {
+        width: 100%;
+    }
+
+    .logo {
+        width: 30vw;
+        height: 5vh;
+    }
+
+    .Catalog, .resources, .pricing,
+    .for-business, .for-universities {
+        width: 20vw;
+        font-size: 0.9rem;
+    }
+
+    .search-btn, .language-btn {
+        width: 12vw;
+        height: 5vh;
+    }
+
+    .sign-in, .get-started {
+        width: 15vw;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        height: auto;
+    }
+
+    .buttons {
+        width: 100%;
+        align-items: center;
+    }
+
+    .firstbutton, .Secondbutton {
+        width: 80%;
+    }
+
+    .create {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+
 }
